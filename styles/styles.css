@@ -1,0 +1,32 @@
+* {
+    font-family: monospace, sans-serif;
+
+}
+
+#Links {
+    text-align: center;
+    color: beige;
+    background-color: orange;
+
+}
+
+.Heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+    color: red;
+}
+.WL {
+    color: darkblue;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.img  {
+    width: auto;
+    height: 500px;
+    margin: auto;
+    display: block;
+    
+}
+
