@@ -1,25 +1,32 @@
 * {
-    font-family: monospace, sans-serif;
-
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    font-size: +20px;
+    text-align: center;
+    list-style-position: inside;
 }
 
 #Links {
-    text-align: center;
     color: beige;
     background-color: orange;
 
 }
 
+.Subheading {
+    font-weight: 700;
+    color: black;
+    background-color: red;
+}
+
 .Heading {
-    text-align: center;
     font-weight: 900;
     font-size: x-large;
     color: red;
+    background-color: black;
 }
-.WL {
+
+.Introduction {
     color: darkblue;
     background-color: lightgreen;
-    text-align: center;
 }
 
 .img  {
@@ -29,4 +36,15 @@
     display: block;
     
 }
+
+.Ingredients, .Method {
+    font-weight: 300;
+}
+
+#Cookie {
+    color: #EADDCA;
+    background-color: #7B3F00;
+}
+
+
 
