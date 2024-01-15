@@ -6,9 +6,17 @@
 }
 
 #Links {
-    color: beige;
-    background-color: orange;
+    font-weight: 1000;
 
+}
+
+.Previouspg {
+    color: red;
+
+}
+
+.Nextpg {
+    color: green;
 }
 
 .Subheading {
@@ -44,6 +52,18 @@
 #Cookie {
     color: #EADDCA;
     background-color: #7B3F00;
+
+}
+
+#Chicken {
+    color: #98fb98;
+    background-color:#8B008B ;
+   
+}
+
+#Mac {
+    color: #FFC300;
+    background-color: #5C4033;
 }
 
 
