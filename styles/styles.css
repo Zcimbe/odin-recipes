@@ -1,69 +1,101 @@
+html {
+    background-color: peachpuff;
+}
+
 * {
     font-family: 'Roboto', 'Times New Roman', Times, serif;
-    font-size: +20px;
-    text-align: center;
     list-style-position: inside;
+    box-sizing: border-box;
 }
 
-#Links {
-    font-weight: 1000;
+body.index {
+    margin: 75px auto;
+}
+
+body {
+   
+    max-width: 800px;
+    margin: 10px auto;
 
 }
 
-.Previouspg {
-    color: red;
-
+.bgcolor {
+    background-color: beige;
+    border: 5px solid black;
+    padding: 10px;
 }
 
-.Nextpg {
-    color: green;
-}
+.Introduction {
+    font-size: large;
+    color: darkred;
+    margin: 20px 80px;
 
-.Subheading {
-    font-weight: 700;
-    color: black;
-    background-color: red;
 }
 
 .Heading {
     font-weight: 900;
-    font-size: x-large;
-    color: red;
-    background-color: black;
-}
-
-.Introduction {
-    color: darkblue;
-    background-color: lightgreen;
-}
-
-.img  {
-    width: auto;
-    height: 500px;
-    margin: auto;
-    display: block;
+    text-align: center;
     
 }
 
+.img {
+    display: block;
+    margin: auto;
+    
+}
+
+
+
+#Home {
+    margin: 2px 254px 2px 249px;
+}
+
+#Home.Cookie {
+    text-align: center;
+    margin-left: 355px;
+}
+
+.Links {
+   margin-left: 5px;
+}
+
+.Nextpg, .Links , #Home{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+#Links {
+    list-style: none;
+    margin: 5px 30px;
+    padding: 10px;
+    background-color: #98fb98;
+    width: 250px;
+}
+
+
+.Subheading {
+    margin: 20px;
+    color: white;
+}
+
+.container {
+    background-color: #7B3F00;
+    border: 5px solid #5C4033;
+    margin: 5px;
+}
+
+
+
 .Ingredients, .Method {
     font-weight: 300;
+    margin-left: -20px;
 }
 
-#Cookie {
-    color: #EADDCA;
-    background-color: #7B3F00;
+#Cookie, #Chicken, #Mac {
+    color: #eee;
+    
 
-}
-
-#Chicken {
-    color: #98fb98;
-    background-color:#8B008B ;
-   
-}
-
-#Mac {
-    color: #FFC300;
-    background-color: #5C4033;
 }
 
 
