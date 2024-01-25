@@ -46,31 +46,32 @@ body {
 
 
 
-#Home {
-    margin: 2px 254px 2px 249px;
-}
-
-#Home.Cookie {
-    text-align: center;
-    margin-left: 355px;
-}
-
 .Links {
-   margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.Nextpg, .Links , #Home{
-    background-color: black;
-    color: white;
-    padding: 3px;
+.Links a {
+    margin: 0 5px 0 5px;
+    border: 2px dashed  #5C4033;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 2px 4px;
 }
 
-#Links {
+
+
+.HomePgNav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.HomePgNav li {
     list-style: none;
-    margin: 5px 30px;
-    padding: 10px;
-    background-color: #98fb98;
-    width: 250px;
+    margin: 0px -10px;
+    padding: 3px 6px;
+    background-color: green;
+   
 }
 
 
